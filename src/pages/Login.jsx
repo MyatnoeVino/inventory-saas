@@ -22,19 +22,6 @@ export default function Login() {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-purple-100 to-indigo-100 px-4">
-      <div className="w-full max-w-3xl bg-white rounded-3xl shadow-xl p-12 flex flex-col md:flex-row items-center">
-        {/* Левая часть с изображением или логотипом */}
-        <div className="md:w-1/2 mb-8 md:mb-0 flex justify-center">
-          <div className="h-24 w-24 md:h-32 md:w-32 bg-gradient-to-tr from-purple-400 to-blue-500 rounded-full flex items-center justify-center shadow-lg transition-transform hover:scale-105">
-            {/* Можно вставить иконку или логотип сюда */}
-            <svg xmlns="http://www.w3.org/2000/svg" className="h-12 w-12 md:h-16 md:w-16 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <circle cx="12" cy="12" r="10" strokeWidth="2" stroke="#3b82f6" fill="none" />
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3" />
-            </svg>
-          </div>
-        </div>
-
         {/* Правая часть с формой */}
         <div className="md:w-1/2 w-full px-8">
           <h2 className="text-3xl font-bold text-gray-800 mb-4 text-center">Добро пожаловать</h2>
